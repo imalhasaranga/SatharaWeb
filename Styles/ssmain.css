@@ -1,0 +1,287 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	height:100%;
+}
+body{
+	margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+	margin-bottom: 0px;
+	height:100%;
+	background:#e7eef7;
+}
+#toparea{
+	width:auto;
+	height:90px;
+	min-width:1000px;
+	background:#e7eef7;
+	background-repeat:repeat-x;
+	margin-bottom:0px;
+}
+#topcontent{
+	width:1000px;
+	height:90px;
+}
+#logo{
+	width:120px;
+	height:90px;
+	float:left;
+	background:url(../images/mainlogo.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+#title{
+	width:430px;
+	height:80px;
+	float:left;
+	background:url(../images/title3.png);
+}
+#login{
+	width:250px;
+	height:80px;
+	float:left;
+}
+#logintop{
+	width:250px;
+	height:50px;
+}
+#links{
+	width:250px;
+	height:40px;
+}
+#fb{
+	width:200px;
+	height:80px;
+	float:left;
+	margin-top:10px;
+}
+#container{
+	width:auto;
+	min-width:1000px;
+	min-height:100%;
+	height:auto;
+	background:url(../images/containerbg.png);
+	background-repeat:repeat-y;
+	background-position:center;
+	padding-top:10px;
+}
+#mainimgs{
+	width:1000px;
+	height:300px;
+	background:url(../images/mainimg1.jpg);
+}
+#content{
+	width:1000px;
+	min-width:1000px;
+	height:auto;
+	overflow:auto;
+}
+#footer{
+	width:auto;
+	height:100px;
+	min-width:1000px;
+	background:#66b7fc;
+	position:relative;
+	margin-top:-100px;
+	clear:both;
+}
+#footer_top{
+	width:auto;
+	height:40px;
+	min-width:1000px;
+	padding-top:10px;
+	background:url(../images/footer_top.jpg);
+	background-repeat:repeat-x;
+}
+#footer_bot{
+	width:auto;
+	height:40px;
+	min-width:1000px;
+	padding-top:5px;
+	line-height:15px;
+	background:url(../images/tooter_bot.jpg);
+	background-repeat:repeat-x;
+}
+#links2{
+	width:auto;
+	height:20px;
+}
+#push{
+	height:100px;
+	padding:5px;
+}
+.mainlinks{
+	width:320px;
+	height:350px;
+	background:url(../images/mainfrmgif.gif);
+	background-repeat:no-repeat;
+	float:left;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding:0px;
+}
+#link_pub{
+	margin-left:0px;
+}
+#link_ins{
+	margin-left:20px;
+}
+#link_kid{
+	margin-left:20px;
+}
+
+/*Styles for Links*/
+
+.linksnew{
+	width:55px;
+	height:25px;
+	padding-top:5px;
+	background:#aec5e8;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	margin-left:5px;
+	color:#000000;
+	float:left;
+	border:1px solid #5c99f6;
+	border-radius:10px;
+}
+.linksnew:hover{
+	width:55px;
+	height:25px;
+	padding-top:5px;
+	background:#f6f7f9;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	margin-left:5px;
+	color:#000000;
+	float:left;
+	border:1px solid #5c99f6;
+	border-radius:10px;
+}
+.links2{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	margin:10px;
+	color:#0000FF;
+}
+.links2:hover{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	margin:10px;
+	color:#FF0000;
+}
+#txt_username{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	width:100px;
+	margin:5px;
+	color:#0000FF;
+	background:url(../images/username.jpg);
+}
+#txt_username:focus{
+	background:#FFFFFF;
+	color:#0033FF;
+	border:#FF3333 1px solid;
+}
+#txt_password{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	width:100px;
+	margin:5px;
+	color:#0000FF;
+	background:url(../images/password.jpg);
+}
+#txt_password:focus{
+	background:#FFFFFF;
+	color:#0033FF;
+	border:#FF3333 1px solid;
+}
+.logtext{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	width:100px;
+	margin:5px;
+	color:#0000FF;
+}
+.logtext:focus{
+	background:#FFFFFF;
+	color:#0033FF;
+}
+.btn{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	margin:5px;
+	width:70px;
+}
+#footer_allrights{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+}
+#footer_bydeen{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#0000FF;
+}
+
+/* Main Link Inside */
+
+.mainlink_top{
+	width:320px;
+	height:50px;
+	padding:0px;
+	margin:0px;
+}
+.mainlink_mid{
+	width:320px;
+	height:200px;
+	padding:0px;
+	margin:0px;
+}
+.mainlink_bot{
+	width:300px;
+	height:100px;
+	padding:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

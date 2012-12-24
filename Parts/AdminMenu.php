@@ -1,0 +1,1 @@
+<a href="Adminbasicneeds.php" >Home </a> | <a href="Adminbooks.php">Books</a> | <a href="AdminInstitute.php">institute</a> | <a href="AdminUsermanage.php">user management</a> | <a href="AdminContactMessages.php">Contact Messages</a> |<a href="AdminPDFTimetable.php">PDF TImeTable</a> | <a href="logics/LogOutLogic.php" >logout</a>
